@@ -31,6 +31,15 @@ img{
     background:#1748b8;
 }
 
+.outline-btn{
+    background-color: white;
+    color: #2563eb;
+    padding: 12px 25px;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 
 /* navbar */
 
@@ -99,7 +108,7 @@ ul li a{
     font-size:18px;
 }
 .hero-parent button{
-    margin-top: 550px;
+    margin-top: 530px;
 }
 
 /* speaker */
@@ -147,4 +156,115 @@ ul li a{
 
 .speakers-content span{
     color: gray;
+}
+/* secure your spot */
+
+.spot-parent{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.spot-parent h2{
+    font-size: 45px;
+}
+
+.spot-parent p{
+    margin: 15px 0 40px;
+    color: gray;
+}
+
+.spot-card-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.spot-card{
+    width: 350px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+}
+
+.active-card{
+    background-color: #0a1223;
+    color: white;
+}
+
+.active-card ul li{
+    color: white;
+}
+
+.spot-card h1{
+    margin: 15px 0;
+}
+
+.spot-card ul{
+    display: block;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.spot-card ul li{
+    margin-bottom: 12px;
+    color: gray;
+}
+
+.spot-card button{
+    margin: 20px auto;
+    display: block;
+    color: #0a1223;
+}
+
+/* hackathon */
+
+.hackathon-parent{
+    margin: 80px auto;
+    padding: 60px;
+    background-color: #cbe0f1;
+    border: 2px dashed #0a3171;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.hackathon-parent h2{
+    font-size: 45px;
+    color: #280c59;
+}
+
+.hackathon-parent p{
+    color: gray;
+    margin: 20px auto 40px;
+    width: 700px;
+}
+
+.hackathon-card-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hackathon-card{
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid #dddddd;
+}
+
+.hackathon-card h3{
+    margin-bottom: 15px;
+    color: #3716b8;
+}
+
+.hackathon-card p{
+    width: 100%;
+    margin: 0;
+    color: #555;
+}
+
+.hackathon-parent button{
+    display: block;
+    margin: 40px auto 0;
 }
