@@ -169,8 +169,14 @@ ul li a{
 }
 
 .spot-parent p{
-    margin: 15px 0 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: gray;
+}
+.spot-card hr{
+    margin: 10px auto;
+    max-width: 1400px;
+    border: 1px solid #bec8df;
 }
 
 .spot-card-parent{
@@ -185,6 +191,7 @@ ul li a{
     border-radius: 10px;
     padding: 30px;
     text-align: left;
+    background-color: #eff0f4;
 }
 
 .active-card{
@@ -197,7 +204,11 @@ ul li a{
 }
 
 .spot-card h1{
-    margin: 15px 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.spot-card p{
+    margin-bottom: 20px;
 }
 
 .spot-card ul{
@@ -222,7 +233,7 @@ ul li a{
 .hackathon-parent{
     margin: 80px auto;
     padding: 60px;
-    background-color: #cbe0f1;
+    background-color: #e2ecf5;
     border: 2px dashed #0a3171;
     border-radius: 15px;
     text-align: center;
@@ -247,7 +258,7 @@ ul li a{
 
 .hackathon-card{
     width: 250px;
-    background-color: white;
+    background-color: rgb(246, 247, 249);
     border-radius: 10px;
     padding: 25px;
     border: 1px solid #dddddd;
@@ -267,4 +278,56 @@ ul li a{
 .hackathon-parent button{
     display: block;
     margin: 40px auto 0;
+}
+
+/* footer */
+/* footer */
+
+footer{
+    background-color: #0a1223;
+    margin-top: 80px;
+    padding: 40px 0;
+}
+
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-left img{
+    width: 45px;
+}
+
+.footer-left h2{
+    color: white;
+    font-size: 28px;
+}
+
+.footer-right{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-right img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+footer hr{
+    margin: 10px auto;
+    max-width: 1200px;
+    border: 1px solid #bec8df;
+}
+
+.copyright{
+    text-align: center;
+    color: rgb(235, 221, 221);
+    font-size: 14px;
 }

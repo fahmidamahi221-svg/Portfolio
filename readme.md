@@ -1,0 +1,1 @@
+here is the prompt for missing section:give me an idea and code for the section i show you at the picture which is not completed.
