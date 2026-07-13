@@ -48,21 +48,6 @@ nav{
     padding:20px 0;
 
 }
-.logo-parent{
-
-    display:flex;
-    align-items:center;
-    gap:10px;
-}
-.logo{
-
-    font-size:26px;
-    font-weight:700;
-}
-.logo span{
-
-    color:#2563eb;
-}
 ul{
 
     display:flex;
@@ -72,7 +57,7 @@ ul{
 ul li a{
 
     text-decoration:none;
-    color:#444;
+    color:#353333;
     font-size:16px;
 }
 
@@ -115,4 +100,51 @@ ul li a{
 }
 .hero-parent button{
     margin-top: 550px;
+}
+
+/* speaker */
+
+.speakers-parent{
+    margin: 80px auto;
+}
+
+.speakers-parent h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.speakers-card-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.speakers-card{
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.speakers-card img{
+    width: 100%;
+}
+
+.speakers-content{
+    padding: 20px;
+}
+
+.speakers-content p{
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.speakers-content h3{
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.speakers-content span{
+    color: gray;
 }
